@@ -16,6 +16,7 @@ public class UsingProcessing extends PApplet {
 	Neiron n;
 
 	public void setup() {
+		
 		n = new Neiron(this, 2);
 		for (int i = 0; i < 250; i++) {
 			ps.add(new Point(random(width), random(height), this));
